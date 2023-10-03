@@ -27,7 +27,10 @@
   <div
     class="flex h-14 w-full select-none items-center justify-between rounded-lg bg-white p-4 shadow-md sm:w-2/3"
   >
-    <section class="flex select-none items-center space-x-2">
+    <a
+      class="flex select-none items-center space-x-2"
+      href="/"
+    >
       <img
         src={favicon}
         alt=""
@@ -36,8 +39,8 @@
         loading="eager"
         class="cursor-pointer transition-all hover:scale-125 active:scale-100"
       />
-      <span class="mt-1">What to eat?</span>
-    </section>
+      <span>What to eat?</span>
+    </a>
     <ul class="flex h-full items-center justify-end space-x-4">
       {#each navList as navItem}
         <li

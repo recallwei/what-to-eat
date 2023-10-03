@@ -3,9 +3,11 @@
 </script>
 
 <main>
-  <div class="h-screen w-screen bg-pink-100">
+  <div
+    class="relative min-h-screen w-screen overflow-y-scroll bg-pink-100 pb-10"
+  >
     <BaseHeader />
-    <div class="p-4">
+    <div class="mx-auto w-full px-6 sm:w-2/3">
       <slot />
     </div>
     <BaseFooter />
